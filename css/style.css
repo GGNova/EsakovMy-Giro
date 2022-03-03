@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'GardensC';
+    src: url("../fonts/GardensC.otf");
+    font-weight: normal;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.goBack{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 50px;
+    left: 70px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 980px;
+    font-family: "GardensC";
+}
+
+.header{
+    display: flex;
+    padding-top: 20px;
+    align-items: flex-start;
+    height: 250px;
+    width: 980px;
+    margin: auto;
+    background-image: url("../img/first-page-bg.png");
+    background-size: 100%;
+    background-position-y: -300px;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+}
+
+.callBack{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.callBack p{
+    color: white;
+}
+
+.slider-advantage{
+    display: flex;
+    height: 350px;
+    align-items: center;
+}
+
+.slider-advantage-main{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-left{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.arrow-right{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.particulars-block{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.particulars-text{
+    font-size: 17px;
+}
+
+.particulars-text:first-letter{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.particulars-img img{
+    width: 550px;
+    height: 400px;
+}
+
+.products-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.product-card{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card-img{
+    width: 290px;
+    height: 250px;
+}
+
+.consulting-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+}
+
+.consultant{
+    line-height: 10px;
+}
+
+.consultant-img{
+    width: 300px;
+    height: 250px;
+}
+
+.consultant p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.brands-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    justify-content: space-between;
+}
+
+.brand img{
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.info-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.company-about-us{
+    margin-top: -50px;
+    background-image: url("../img/about-us-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.company-about-us-text{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.company-info-text{
+    color: white;
+    font-size: 17px;
+}
+
+.distribution{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.distribution input{
+    min-width: 300px;
+}
+
+.distribution h4{
+    color: white;
+}
+
+.distribution label{
+    color: white;
+}
